@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/wall.css" rel="stylesheet" type="text/css" />
@@ -7,11 +8,12 @@
 	<script src="js/wall.js"></script>
 	<title>ScriptEd Unit 10 Project: Facebook wall</title>
 </head>
+
 <body>
 	<div class="container">
 		<h1>ScriptEd Unit 10 Project: Facebook wall</h1>
 		<hr/>
-	
+
 		<div class="row" id="search-bar">
 			<div class="col-md-10">
 				<input type="text" class="form-control input-lg " id="message" placeholder="Type in your message">
@@ -22,24 +24,31 @@
 		</div>
 
 		<div id="wall">
-			
+
 		</div>
-		
+
+		<templates id="tmplet" style="display: none">
+			<div class="row contact-row">
+				<div class="contact col-md-4 text-center">
+					<img class="img-responsive" src="https://thebenclark.files.wordpress.com/2014/03/facebook-default-no-profile-pic.jpg" >
+					<br/>
+				</div>
+				<div class="col-md-8">
+					<h3 class= "row">
+						<span class="name col-md-4">Dan</span>
+						<span class="location col-md-4">Space</span>
+						<span class="email col-md-4">dan@area51.com</span>
+					</h3>
+					<div class="row" id="msg">
+						
+					</div>
+				</div>
+			</div>
+		</templates>
+
 	</div>
 </body>
 
-<templates style="display: none">
-	<div class="row contact-row">
-	</div>
-	<div class="contact col-md-4 text-center">
-		<img class="img-circle" src="">
-		<br/>
-		<h3>
-		<span class="name"></span><br/>
-		<span class="location"></span><br/>
-		<span class="email"></span>
-		</h3>
-	</div>
-</templates>
+
 
 </html>
